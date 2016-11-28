@@ -3,14 +3,15 @@ package lab10;
 import java.util.Date;
 
 public class Student {
-    String name;
-    String role;
-    Date deadline;
+    private String name;
+    protected String role;
+    protected Date deadline;
 
-    Student() {
+    public Student() {
+
     }
 
-    Student(String name) {
+    public Student(String name) {
         this.name = name;
         this.role = "Free Student";
         this.deadline = null;
@@ -28,7 +29,7 @@ public class Student {
         return role;
     }
 
-    public void setDeadline(Date deadline) {
+    protected void setDeadline(Date deadline) {
         System.out.println("A free student should not be assigned a deadline.");
     }
 }

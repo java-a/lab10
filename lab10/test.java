@@ -1,6 +1,6 @@
 package lab10;
 
-public class test {
+public class Test {
     public static void main(String[] argv) {
         Student[] students = new Student[1];
         for (Student student : students) {

@@ -1,5 +1,5 @@
 package lab10;
 
-public class Developer{
+public class Developer extends Student{
 
 }
