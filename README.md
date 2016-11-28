@@ -58,7 +58,7 @@ public class Designer extends Student {}
 
 1. Finish the design of `Developer` and `Designer`.
 
-2. Finish the `test.java` to output the information of 5 developers, 2 designers, and a normal student.
+2. Finish the `Test.java` to output the information of 5 developers, 2 designers, and a normal student.
 
    The information should include every field in this class. For example:
 
@@ -68,10 +68,18 @@ public class Designer extends Student {}
 
 3. * Compare the results of `toString()` in three classes, and explain the differences.
    * Please explain your understanding on inheritance.
+   * Please explain your understanding on the keywords `private`, `public`, `protected` and `super`.
 
 > Hint: `toString()` is a method in the class `Object` , which is the parent class of all the classes.
 
 ### Upload & Deadline
 
-* Task 1 and 2 should be finished on Tuesday, and uploaded to FTP no later than `11/28/2016 23:59:59 (UTC+8)`.
-* Task 3 is a `.txt` file with your student number. Please upload them to FTP no later than `11/29/2016 23:59:59 (UTC+8)`.
+* Task 1 and 2 should be finished on Tuesday, and uploaded to FTP no later than `11/29/2016 23:59:59 (UTC+8)`.
+* Task 3 is a `.txt` file with your student number. Please upload them to FTP no later than `11/30/2016 23:59:59 (UTC+8)`.
+
+## Project Task: Think in Object
+
+Please reconstruct your project based on object-oriented programming. You should take the following things into consideration:
+
+1. what can be a class in this project, and what are the inheritance relationships between classes.
+2. how to simplify your code using method.
